@@ -1,0 +1,11 @@
+(module dome-8mm (layer F.Cu) (tedit 5620F000)
+  (fp_text reference G*** (at 0 -10.75) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_text value dome-8.5mm (at 0 11.75) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_circle (center 0 0) (end 4.255 1) (layer F.Cu) (width 1.27))
+  (pad 1 thru_hole circle (at 0 0) (size 3.81 3.81) (drill 0.9) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 smd rect (at 4.3 0) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
+)
